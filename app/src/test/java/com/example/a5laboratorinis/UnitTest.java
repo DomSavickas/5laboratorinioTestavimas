@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class ExampleUnitTest {
+public class UnitTest {
     @Test
     public void Given_InvalidString_When_getRateFromECBIsCalled_Then_ReturnErrorMessage() throws IOException {
         final String givenString = "USDA";
